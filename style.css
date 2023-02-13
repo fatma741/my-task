@@ -1,0 +1,151 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 100;
+}
+ .caption-one
+ {
+   text-align: center;
+   margin-top: 50px;
+   padding: 22px;
+ }
+.grand
+{
+    width: 100%;
+}
+ .parent
+ {  
+    display:flex;
+    flex-direction: column;
+    height: 350px;
+    flex-wrap: wrap;
+    width: 100% ;
+    align-items: center;
+ }
+ .center{
+
+    height: 210px;
+    width: 100%;
+    align-items: center;
+    color: blue;
+    margin-top: 50px;
+    font-size: 100px;
+    margin-bottom: 70px;
+    margin-right: 80px;
+}
+.one img{
+    width: 40%;
+    margin-left: 40px;
+    border:3px  solid   lightblue;
+    border-radius: 50%;
+    
+}
+.one1 img
+{
+    border:3px  solid   lightblue;
+    border-radius: 50%;
+}
+
+.two img
+{
+   width:60%;
+   margin-top: 5px;
+   border:3px  solid   lightblue;
+   border-radius: 50%;
+ 
+}
+
+.two2 img
+{
+   width:50%;
+   margin-top: 5px;
+   border:3px  solid   lightblue;
+   border-radius: 50%;
+ 
+}
+
+.three img
+{
+  width:75%;
+  margin-top: 115px;
+  border:3px  solid   lightblue;
+  border-radius: 50%;
+}
+.three3 img{
+  margin-top: 115px;
+  border:3px  solid   lightblue;
+  border-radius: 50%;
+}
+.two{
+  align-self:flex-end;
+ }
+ .two2
+ {
+  align-self:flex-start;
+ }  
+.footer{
+   margin-top: 100px;
+   text-align: center;
+   font-size: 26px;
+   height: 150px;
+  
+}
+.footer .content
+{
+    height: 100px;
+}
+.account{
+    width: 13%;
+    height: 40px;
+    background-color: aliceblue;
+    border-color: grey;
+    border-radius: 10%;
+}
+.free{
+    width: 9%;
+    height: 40px;
+    background-color: aliceblue;
+    border-color: grey;
+    border-radius: 15%;
+}
+.footer h2{
+    padding: 7px;
+}
+.footer input{
+   margin-top: 40px;
+   margin-bottom: 120px;
+   margin-left: 20px;
+}
+.one img:hover{
+    border:3px  solid   lightblue;
+    border-radius: 50%;
+    box-shadow: 7px 8px 9px 4px lightblue;
+}
+.two img:hover{
+   
+    border-radius: 50%;
+    box-shadow: 7px 8px 9px 4px lightblue;
+}
+.three img:hover{
+    
+    border-radius: 50%;
+    box-shadow: 7px 8px 9px 4px lightblue;
+}
+.one1 img:hover{
+   
+    border-radius: 50%;
+    box-shadow: 7px 8px 9px 4px lightblue;
+}
+.two2 img:hover{
+  
+    border-radius: 50%;
+    box-shadow: 7px 4px 9px 4px lightblue;
+}
+.three3 img:hover{
+   
+    border-radius: 50%;
+    box-shadow: 7px 8px 9px 4px lightblue;
+}
+
+
